@@ -84,6 +84,9 @@ body{
     width: 60%;
   }
   
+  .project-img{
+    width: 90%;
+  }
   /*contact section styling*/
   #contacts{
     background-color: lightgray;
