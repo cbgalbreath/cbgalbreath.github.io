@@ -44,11 +44,11 @@ body{
   }
   
   #greeting-title{
-    font-size: 3vw;
+    font-size: 40px;
   }
   
   #greeting-sub-title{
-    font-size: 2vw;
+    font-size: 30px;
   }
   
   /*Project section styling*/
@@ -64,7 +64,7 @@ body{
   
 
   #project-title{
-    font-size: 2vw;
+    font-size: 20px;
   }
   
   .grid{
@@ -81,7 +81,7 @@ body{
     background-color: gray;
     justify-self: center;
     padding: 30px;
-    width: 60%;
+    width: 90%;
   }
   
   .project-img{
@@ -112,17 +112,21 @@ body{
   }
   
   #contacts-title{
-    font-size: 2vw;
+    font-size: 20px;
   }
   
   /*mobile formatting*/
-  @media (max-width: 1000px) {
+  @media (max-width: 800px) {
     
     /* full-body */
     
     body{
       
-      font-size: 3vw;
+      font-size: 12px;
+    }
+
+    .project-link{
+      font-size: 14px;
     }
   
    /*nav menu formatting*/
