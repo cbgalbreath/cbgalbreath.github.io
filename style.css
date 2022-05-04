@@ -34,7 +34,9 @@ body{
   /* Welcome Section Styling*/
   
   #welcome-section{
-    background-color: gray;
+    background-color: white;
+    background-image: url("/images/hero2medium.jpg");
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -83,18 +85,37 @@ body{
     padding: 30px;
     width: 90%;
   }
+
+  a.project-link{
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+    padding: 10px 10px;
+  }
+
+  a.code-link{
+    font-size: 16px;
+    background-color: blue;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+  }
   
   .project-img{
     width: 90%;
   }
 
-  .project-link{
-
-    color: blue;
-    text-decoration: none;
+  .description{
     font-size: 22px;
-
   }
+
   /*contact section styling*/
   #contacts{
     background-color: gray;
@@ -125,9 +146,7 @@ body{
       font-size: 12px;
     }
 
-    .project-link{
-      font-size: 14px;
-    }
+
   
    /*nav menu formatting*/
     
