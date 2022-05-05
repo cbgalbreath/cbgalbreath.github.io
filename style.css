@@ -14,6 +14,7 @@ body{
   /*nav menu styling*/
   header{
     padding: 5px;
+    background-color: rgba(128, 128, 128, .5);
     width: 100%;
     position: fixed;
   }
@@ -67,7 +68,7 @@ body{
   
 
   #project-title{
-    font-size: 20px;
+    font-size: 30px;
   }
   
   .grid{
@@ -193,7 +194,7 @@ body{
     }
     
     #greeting-sub-title{
-      font-size: 20px;
+      font-size: 18px;
     }
 
     /*Project section styling*/
@@ -209,7 +210,7 @@ body{
   
 
   #project-title{
-    font-size: 20px;
+    font-size: 30px;
   }
   
   .grid{
@@ -217,14 +218,13 @@ body{
     flex-direction: column;
     align-self: center;
     justify-content: center;
-    width: 80%;
-    margin-bottom: 50px;
+    width: 100%;
   }
   
   .project{
     background-color: gray;
-    justify-self: center;
-    padding: 30px;
+    margin: 10px;
+    padding: 10px;
     width: 90%;
   }
 
@@ -275,7 +275,7 @@ body{
   }
   
   #contacts-title{
-    font-size: 18px;
+    font-size: 14px;
   }
   
   }
