@@ -137,9 +137,89 @@ body{
   #contacts-title{
     font-size: 20px;
   }
+
+  /*Blog Page Formatting*/
+  .blog{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center; 
+  }
+  .blog-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0;
+    width: 90%;
+    height: 80%;
+  }
+
+  .article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .article:hover{
+    background-color: black;
+    opacity: .5;
+    z-index: 1;
+
+  }
+
+  .article-link{
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    z-index: 2;
+  }
+
+  .article-link:hover{
+    text-decoration: underline;
+  }
+
+  .latest-article{
+    grid-column: 1/5;
+    font-size: 30px;
+    background-image: url("https://miro.medium.com/max/1400/0*Iepgsqtcc-39ImzL");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .prev-article{
+    font-size: 18px;
+  }
+
+  .one{
+    background-image: url("https://miro.medium.com/max/1400/1*Whezxvj3LSz35YRweX0QuQ.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+
+  .two{
+    background-image: url("https://miro.medium.com/max/1400/1*cvOQ29QZv01kkJfsF4W2FQ.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+  
+  .three{
+    background-image: url("https://miro.medium.com/max/1128/1*XxQPQ4OPIZVNwAsUbGynLA.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+
+  .four{
+    background-image: url("https://miro.medium.com/max/1400/1*_leDgSYHhZTfzT3ovKKwlg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
   
   /*mobile formatting*/
-  @media (max-width: 800px) {
+  @media (width: 800px) {
     
     /* full-body */
     
