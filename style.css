@@ -95,7 +95,7 @@ body {
 
 .cta-button {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   padding: 12px 24px;
   background: #007acc;
   color: #fff;
@@ -103,6 +103,16 @@ body {
   text-decoration: none;
   font-size: 16px;
   transition: background 0.2s ease;
+}
+
+.cta-secondary {
+  background: transparent;
+  border: 2px solid #0d6efd;
+  color: #0d6efd;
+}
+.cta-secondary:hover {
+  background: #0d6efd;
+  color: #fff;
 }
 
 .cta-button:hover {
@@ -141,6 +151,46 @@ body {
   .tagline {
     font-size: 18px;
     color: #ddd;
+  }
+}
+
+/* Services */
+
+.services {
+  padding: 3em 1em;
+  background: #fff;
+  text-align: center;
+}
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5em;
+}
+.service-card {
+  background: #f3f3f3;
+  padding: 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 0 0.5em;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+}
+
+/* Desktop Services */
+@media (min-width: 768px) {
+  .service-cards {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .service-card {
+    flex: 1 1 250px;
+    max-width: 300px;
   }
 }
 
